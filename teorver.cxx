@@ -23,7 +23,7 @@ rational<cpp_int> C(int n, int k) {
     return drob(fac(n),fac(k)*fac(n-k));
 }
 
-rational<cpp_int> C(int n, int k) {
+rational<cpp_int> A(int n, int k) {
     return drob(fac(n),fac(n-k));
 }
 
